@@ -15,9 +15,23 @@
 		/// <summary>
 		/// Create new logger for context.
 		/// </summary>
-		/// <typeparam name="contextInfos">Information which characterize context.</typeparam>
+		/// <param name="contextInfo">Information which characterize context.</param>
+		/// <returns></returns>
+		ILogger CreateLoggerForContext(IContextInfo contextInfo);
+
+		/// <summary>
+		/// Create new logger for context.
+		/// </summary>
+		/// <param name="contextInfos">Information which characterize context.</param>
 		/// <returns></returns>
 		ILogger CreateLoggerForContext(params IContextInfo[] contextInfos);
+
+		/// <summary>
+		/// Create new log context.
+		/// </summary>
+		/// <param name="contextInfo">Information which characterize context.</param>
+		/// <returns>New log context.</returns>
+		IDisposable CreateLogContext(IContextInfo contextInfo);
 
 		/// <summary>
 		/// Create new log context.
