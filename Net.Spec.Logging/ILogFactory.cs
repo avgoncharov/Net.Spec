@@ -17,27 +17,27 @@
 		/// </summary>
 		/// <param name="contextInfo">Information which characterize context.</param>
 		/// <returns></returns>
-		ILogger CreateLoggerForContext(IContextInfo contextInfo);
+		ILogger CreateLoggerForContext(ContextInfo contextInfo);
 
 		/// <summary>
 		/// Create new logger for context.
 		/// </summary>
 		/// <param name="contextInfos">Information which characterize context.</param>
 		/// <returns></returns>
-		ILogger CreateLoggerForContext(params IContextInfo[] contextInfos);
+		ILogger CreateLoggerForContext(params ContextInfo[] contextInfos);
 
 		/// <summary>
 		/// Create new log context.
 		/// </summary>
 		/// <param name="contextInfo">Information which characterize context.</param>
 		/// <returns>New log context.</returns>
-		IDisposable CreateLogContext(IContextInfo contextInfo);
+		IDisposable CreateLogContext(ContextInfo contextInfo);
 
 		/// <summary>
 		/// Create new log context.
 		/// </summary>
 		/// <param name="contextInfos">Information which characterize context.</param>
 		/// <returns>New log context.</returns>
-		IDisposable CreateLogContext(params IContextInfo[] contextInfos);
+		IDisposable CreateLogContext(params ContextInfo[] contextInfos);
 	}
 }
