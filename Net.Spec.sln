@@ -5,7 +5,11 @@ VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Spec.Logging", "Net.Spec.Logging\Net.Spec.Logging.csproj", "{BE387189-661D-4731-94A3-A6CBE860FC10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Spec.Logging.Adapters.Serilog", "Net.Spec.Logging.Adapters.Serilog\Net.Spec.Logging.Adapters.Serilog.csproj", "{5D9DFA11-202F-4086-9F6F-AEA5A1A7C9BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Spec.Logging.Adapters.Serilog", "Net.Spec.Logging.Adapters.Serilog\Net.Spec.Logging.Adapters.Serilog.csproj", "{5D9DFA11-202F-4086-9F6F-AEA5A1A7C9BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{74AFA49C-4567-4A18-A7EB-273033BB6ADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Spec.Logging.Tests", "Tests\Net.Spec.Logging.Tests\Net.Spec.Logging.Tests.csproj", "{2B3BADDC-362A-4C84-BAF4-751E5A94B920}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +25,16 @@ Global
 		{5D9DFA11-202F-4086-9F6F-AEA5A1A7C9BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D9DFA11-202F-4086-9F6F-AEA5A1A7C9BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D9DFA11-202F-4086-9F6F-AEA5A1A7C9BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B3BADDC-362A-4C84-BAF4-751E5A94B920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B3BADDC-362A-4C84-BAF4-751E5A94B920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B3BADDC-362A-4C84-BAF4-751E5A94B920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B3BADDC-362A-4C84-BAF4-751E5A94B920}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B3BADDC-362A-4C84-BAF4-751E5A94B920} = {74AFA49C-4567-4A18-A7EB-273033BB6ADA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {85855687-5B91-4AAC-AE52-49D58219710A}

@@ -1,16 +1,19 @@
 <?xml version="1.0"?>
 <package >
 	<metadata>
-		<id>Net.Spec.Logging</id>
-		<version>1.0.0-betta</version>
-		<title>Net.Spec.Logging</title>
+		<id>Net.Spec.Logging.Adapters.Serilog</id>
+		<version>1.0.1-dev</version>
+		<title>Net.Spec.Logging.Adapters.Serilog</title>
 		<authors>Andrey Goncharov</authors>
 		<owners>Andrey Goncharov</owners>
 		<licenseUrl>https://github.com/avgoncharov/Net.Spec/blob/master/LICENSE</licenseUrl>
 		<projectUrl>https://github.com/avgoncharov/Net.Spec</projectUrl>
-		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<description>Core logging API.</description>
+		<requireLicenseAcceptance>true</requireLicenseAcceptance>
+		<description>Adapter for serilog.</description>		
 		<copyright>Copyright (c) 2017 Andrey Goncharov</copyright>
+		<dependencies>
+			<dependency id="Serilog" version="2.6.0" />
+		</dependencies>
 	</metadata>
 
 	<files>
