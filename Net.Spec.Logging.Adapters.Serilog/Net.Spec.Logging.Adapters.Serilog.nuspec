@@ -2,7 +2,7 @@
 <package >
 	<metadata>
 		<id>Net.Spec.Logging.Adapters.Serilog</id>
-		<version>1.0.1-dev</version>
+		<version>1.0.0</version>
 		<title>Net.Spec.Logging.Adapters.Serilog</title>
 		<authors>Andrey Goncharov</authors>
 		<owners>Andrey Goncharov</owners>
@@ -17,7 +17,7 @@
 	</metadata>
 
 	<files>
-		<file src="**\bin\Debug\netstandard1.6\*.dll" target="lib/net461" />
-		<file src="**\bin\Debug\netstandard1.6\*.pdb" target="lib/net461" />
+		<file src="**\bin\Release\netstandard1.6\*.dll" target="lib/net461" />
+		<!--<file src="**\bin\Debug\netstandard1.6\*.pdb" target="lib/net461" />-->
 	</files>
 </package>
